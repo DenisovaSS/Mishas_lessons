@@ -1,5 +1,6 @@
 .container {
   width: 1140px;
+  margin: 0 auto;
 }
 .header {
   min-height: 40px;
@@ -28,6 +29,13 @@ h1 {
 .main_lesson {
   position: relative;
   margin: 20px;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.lesson_img {
+  height: 150px;
+  width: 100%;
 }
 .teacher_back {
   position: absolute;
@@ -47,4 +55,19 @@ h1 {
   /* background-size: 100% auto; */
   width: 100%;
   height: auto;
+}
+
+.lesson_descr {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 19px;
+  background: #78b7bb;
+  min-height: 35px;
+  padding-top: 10px;
+  color: rgb(32, 38, 57);
+}
+.lesson_descr#sv_less {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
 }
