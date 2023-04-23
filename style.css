@@ -99,3 +99,22 @@ h1 {
     margin: 0 auto;
   }
 }
+
+#bar {
+  top: -10em;
+  right: 5em; /* Положение */
+  padding: 0.5em; /* Поля */
+  margin: 0; /* Отступы */
+  position: absolute; /* Абсолютное позиционирование */
+  width: 4em; /* Ширина */
+  background: #f54ea2; /* Цвет фона */
+  color: #41228e; /* Цвет текста */
+  text-align: center; /* Выравнивание по центру */
+  /* Переход */
+  transition: top 1s ease-out 0.5s;
+  list-style-type: none;
+  font-size: 20px;
+}
+#bar:hover {
+  top: 0;
+}
