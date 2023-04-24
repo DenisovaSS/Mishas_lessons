@@ -1,9 +1,11 @@
 body {
   background: #e3f6f5;
 }
-.container {
-  width: 1140px;
-  margin: 0 auto;
+
+.header_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header {
   min-height: 40px;
@@ -14,10 +16,19 @@ body {
   );
   padding: 5px;
 }
-.header_cont {
+.owner_back {
+  width: 90px;
+  height: 90px;
+  border-radius: 55%;
+  margin-left: 20px;
   display: flex;
   justify-content: center;
-  align-items: center;
+
+  overflow: hidden;
+}
+.owner {
+  width: 100%;
+  height: auto;
 }
 
 h1 {
@@ -59,20 +70,7 @@ h1 {
 
   overflow: hidden;
 }
-.owner_back {
-  width: 90px;
-  height: 90px;
-  border-radius: 55%;
-  margin-left: 20px;
-  display: flex;
-  justify-content: center;
 
-  overflow: hidden;
-}
-.owner {
-  width: 100%;
-  height: auto;
-}
 .teacher {
   /* background-size: 100% auto; */
   width: 100%;
@@ -93,13 +91,6 @@ h1 {
   padding-bottom: 5px;
   font-size: 15px;
 }
-@media (max-width: 600px) {
-  .container {
-    width: 500px;
-    margin: 0 auto;
-  }
-}
-
 #bar {
   top: -10em;
   right: 5em; /* Положение */
@@ -117,4 +108,20 @@ h1 {
 }
 #bar:hover {
   top: 0;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+  .teacher_back {
+    left: 5px;
+    top: 5px;
+    width: 55px;
+    height: 55px;
+  }
+  .main_lesson {
+    margin: 10px;
+    width: 250px;
+    border-radius: 20px;
+  }
 }
