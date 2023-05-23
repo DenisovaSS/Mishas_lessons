@@ -94,7 +94,7 @@ h1 {
 #bar {
   top: -39em;
   right: 6em; /* Положение */
-  padding: 0.5em; /* Поля */
+  padding: 0.3em; /* Поля */
   margin: 0; /* Отступы */
   position: absolute; /* Абсолютное позиционирование */
   width: 12em; /* Ширина */
@@ -109,6 +109,7 @@ h1 {
 #bar:hover {
   top: 0;
 }
+
 @media (max-width: 600px) {
   h1 {
     font-size: 30px;
