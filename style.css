@@ -92,18 +92,18 @@ h1 {
   font-size: 15px;
 }
 #bar {
-  top: -10em;
-  right: 5em; /* Положение */
+  top: -39em;
+  right: 6em; /* Положение */
   padding: 0.5em; /* Поля */
   margin: 0; /* Отступы */
   position: absolute; /* Абсолютное позиционирование */
-  width: 4em; /* Ширина */
+  width: 12em; /* Ширина */
   background: #f54ea2; /* Цвет фона */
-  color: #41228e; /* Цвет текста */
+  /*color: #41228e;  Цвет текста */
   text-align: center; /* Выравнивание по центру */
   /* Переход */
   transition: top 1s ease-out 0.5s;
-  list-style-type: none;
+  /* list-style-type: none; */
   font-size: 20px;
 }
 #bar:hover {
